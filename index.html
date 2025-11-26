@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+  <nav id="navbar">
+    <header>Web Dev Basics</header>
+    <a class="nav-link" href="#HTML_Introduction">HTML Introduction</a>
+    <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+    <a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    <a class="nav-link" href="#Debugging_Tips">Debugging Tips</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="HTML_Introduction">
+      <header>HTML Introduction</header>
+<p>HTML is the foundation of web development, providing the basic structure of a webpage. It uses a series of tags to define headings, paragraphs, links, and more.</p>
+<p>Without HTML, browsers would have no way of interpreting and displaying content in an organized format.</p>
+<code>&lt;p&gt;Hello World!&lt;/p&gt;</code>
+<ul>
+<li>&lt;h1&gt; defines a top-level heading</li>
+<li>&lt;a&gt; is used for hyperlinks.</li>
+</ul>
+    </section>
+    <section class="main-section" id="CSS_Styling">
+      <header>CSS Styling</header>
+      <p>CSS adds design and presentation to a webpage. It allows you to control colors, fonts, layouts, and overall visual appearance.</p>
+<p>Developers often separate CSS into external stylesheets for cleaner and more maintainable code.</p>
+<code>body {
+  background-color: lightblue;
+}</code>
+<ul>
+ <li>Inline styles apply directly to elements.</li>
+<li>Internal styles are placed inside the &lt;style&gt; tag.</li>
+<li>External stylesheets are linked with &lt;link&gt;.</li>
+</ul>
+    </section>
+    <section class="main-section" id="JavaScript_Basics">
+<header>JavaScript Basics</header>
+<p>JavaScript makes web pages interactive, enabling dynamic updates, form validation, and more.</p>
+<p>It runs directly in the browser, meaning users can interact without refreshing the page.</p>
+<p>Variables and functions are the building blocks of JavaScript programming.</p>
+<code>console.log("Hello from JavaScript!");</code><br></br>
+<code>function greet(name) {
+  return "Hello " + name;
+}</code>
+<ul>
+<li>Variables store data.</li>
+<li>Loops help repeat tasks efficiently.</li>
+</ul>
+    </section>
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+<p>Responsive design ensures that a website looks good on devices of all sizes, from phones to large desktops.</p>
+<p>Techniques like media queries, flexbox, and grid make it possible to adapt layouts fluidly.</p>
+<code>@media (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+}
+</code>
+<ul>
+  <li>Flexbox makes alignment easy.</li>
+<li>CSS Grid handles complex layouts.</li>
+    </section>
+    <section class="main-section" id="Debugging_Tips">
+      <header>Debugging Tips</header>
+<p>Debugging is the process of finding and fixing errors in your code. Even experienced developers spend time debugging daily.</p>
+<p>Common strategies include printing values to the console, using breakpoints, and carefully reading error messages.</p>
+<code>try {<br>
+  nonExistentFunction();<br>
+} catch (error) {<br>
+  console.log("Error found: " + error.message);
+}
+</code>
+<ul>
+<li>Use browser developer tools.</li>
+<li>Break problems into smaller parts.</li>
+</ul>
+    </section>
+  
+  </main>
+  </body>
+</html>
