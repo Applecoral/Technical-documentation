@@ -1,0 +1,70 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar default (mobile-first: top) */
+#navbar {
+  position: relative;
+  width: 100%;
+  background-color: #AA2C72; /* purple shade you used */
+  padding: 15px;
+  border-bottom: 2px solid #333;
+}
+
+#navbar header {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#navbar .nav-link {
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+#main-doc {
+  padding: 20px;
+}
+
+/* Media query for desktops */
+@media (min-width: 768px) {
+  #navbar {
+    position: fixed;   /* always visible */
+    top: 0;
+    left: 0;
+    width: 250px;      /* sidebar width */
+    height: 100vh;     /* full height */
+    border-right: 2px solid #333;
+    border-bottom: none;
+    padding: 20px;
+  }
+
+  #navbar .nav-link {
+    display: block;    /* stack vertically */
+    margin: 10px 0;
+  }
+
+  #main-doc {
+    margin-left: 250px; /* push content away from sidebar */
+  }
+}
+
+/* Extra: section headers */
+.main-section header {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #AA2C72;
+}
