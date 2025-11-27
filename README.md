@@ -1,6 +1,6 @@
 This project is a simple technical documentation site covering fundamental web‑development topics: HTML, CSS, JavaScript, responsive design, and debugging tips.
 
-It’s designed to help beginners follow step‑by‑step and understand core web concepts in a clean, easy‑to‑read layout.
+It’s designed to help beginners follow step‑by‑step and understand core web concepts in a clean, easy layout.
 
 # Sections
 - HTML Introduction — shows basic HTML tags, and explains page structure.
