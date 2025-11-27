@@ -7,7 +7,7 @@ body {
 
 /* Navbar default (mobile-first: top) */
 nav {
-  position: sticky;
+  position: relative;
   top: 0;
   background-color: #AA2C72;
   color: white;
@@ -58,6 +58,7 @@ nav {
 
   #main-doc {
     margin-left: 250px;
+    padding-left: 80px;
   }
 }
 
@@ -68,5 +69,4 @@ nav {
   margin-bottom: 10px;
   color: #AA2C72;
 }
-
 
