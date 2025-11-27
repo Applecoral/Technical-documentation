@@ -6,12 +6,13 @@ body {
 }
 
 /* Navbar default (mobile-first: top) */
-#navbar {
-  position: relative;
-  width: 100%;
+nav#navbar {
+  position: sticky;
+  top: 0;
   background-color: #AA2C72;
-  padding: 15px;
-  border-bottom: 2px solid #333;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1;
 }
 
 #navbar header {
