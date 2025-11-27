@@ -6,7 +6,7 @@ body {
 }
 
 /* Navbar default (mobile-first: top) */
-nav#navbar {
+navbar {
   position: sticky;
   top: 0;
   background-color: #AA2C72;
