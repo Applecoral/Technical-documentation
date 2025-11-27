@@ -16,6 +16,7 @@ nav {
   top: 0;
   background-color: #AA2C72;
   color: white;
+  margin: 0 auto;
   padding: 10px 20px;
   z-index: 1000;
 }
