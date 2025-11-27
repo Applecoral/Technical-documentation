@@ -1,13 +1,13 @@
 /* General reset */
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   line-height: 1.6;
 }
 
 /* Navbar default (mobile-first: top) */
 nav {
-  position: relative;
+  position: sticky;
   top: 0;
   background-color: #AA2C72;
   color: white;
@@ -19,7 +19,7 @@ nav {
   font-size: 1.3em;
   font-weight: bold;
   color: white;
-  margin-bottom: 10px;
+  margin: 0 0 20px 0;
 }
 
 #navbar .nav-link {
@@ -40,7 +40,7 @@ nav {
 }
 
 /* Media query for desktops */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #navbar {
     position: fixed;   
     top: 0;
