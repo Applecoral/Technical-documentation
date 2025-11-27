@@ -7,7 +7,7 @@ body {
 
 /* Navbar default (mobile-first: top) */
 #navbar {
-  position: absolute;
+  position: relative;
   width: 100%;
   background-color: #AA2C72;
   padding: 15px;
@@ -41,9 +41,8 @@ body {
 /* Media query for desktops */
 @media (min-width: 768px) {
   #navbar {
-    position: absolute;   
+    position: fixed;   
     top: 0;
-    
     width: 250px;     
     height: 100vh;    
     border-right: 2px solid #333;
